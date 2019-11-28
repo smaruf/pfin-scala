@@ -1,10 +1,14 @@
+package net.msm.pfin.model.auth;
+
+import java.util.List;
+
 public interface Permission {
     Long getId();
     List<Long> getRoleIds();
     List<Long> getGroupIds();
-    List<AuthTypes> getAuthTypes();
+    List<AuthType> getAuthTypes();
     boolean isGranted();
-    default isDenied() {
+    default boolean isDenied() {
       return !isGranted();
     }
 }

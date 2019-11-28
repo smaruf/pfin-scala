@@ -1,6 +1,13 @@
+package net.msm.pfin.model.auth;
+
+import lombok.Builder;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 @Data
 @Builder
-@NoArgConstractor
+@NoArgsConstructor
 public class Account {
     Long userId;
     String accountName;
