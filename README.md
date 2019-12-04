@@ -37,7 +37,7 @@ Components:
 7) Action revert
 8) Statements
 9) Notification and complains
-10) Checksum
+1) Checksum
 
 ### 6. PDF/Excel print module:
 1) Export to excel
@@ -58,10 +58,12 @@ Components:
 1) Java with spring
 2) Node.js
 3) Vue.js
-4) MongoDB/GraphDB
+4) MongoDB
+4) GraphQL
 5) Elastic search
 6) Mobile application
 7) Selenium test automation
 8) JUnit for service
+1) BDD Cucumber for feature check
 
 
